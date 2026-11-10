@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+.todo {
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.todo input {
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.todo button {
+  padding: 8px 14px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#lista {
+  list-style: none;
+  padding: 0;
+}
+
+#lista li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+  margin: 6px 0;
+  background: #f2f2f2;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#lista li.gotovo {
+  text-decoration: line-through;
+  color: #888;
+}
+
+#lista li button {
+  background: #c0392b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 10px;
+}
